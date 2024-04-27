@@ -37,16 +37,17 @@ ul li{
     margin-left: 5rem;
 }
 
-.social-media .social-media-desktop{
-    display: grid;
-    grid-template-columns: repeat(2,5rem);
-    text-align: center;
-    
-}
-
-.social-media .social-media-desktop li a{
+.social-media .desktop-icon a{
     color: palevioletred;
 }
+
+.social-media{
+    /* Here we will add grid  */
+    display: grid;  
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    text-align: center;
+} 
 
 ul li a{
     text-decoration: none;
@@ -77,18 +78,21 @@ a:hover {
     position: absolute;
     width: 2rem;
     height: 1.5rem;
-    margin-left: 9.55rem;
+    margin-left: 8.5rem;
     margin-top: .1rem;
     font-size: 1.33rem;
 }
 
 
-.search-items input{
-    /* border-radius: 0.3rem; */
+/* .search-items .search-input input{
+    border-radius: 0.3rem; cmnted
     border-color: palevioletred;
     width: 11rem;
-}
+} */
+
+ 
 
 /* ++++++++++++++++++++ MEDIA QUERIES +++++++++++++++++  */
 
 /*  */
+
